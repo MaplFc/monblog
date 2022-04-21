@@ -1,0 +1,27 @@
+#titre{
+    text-align: center;
+    font-size:50px;
+}
+
+
+nav{
+    list-style :none;
+    display:flex;
+    justify-content: space-evenly;
+    padding:20px;
+    color: whitesmoke;
+    background-color:grey;
+}
+
+li{
+    font: size 45px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+li:hover{
+    color: yellowgreen;
+    font-size: 30px;
+    transition: all 0.5s ease;
+    text-shadow: 1px 10px 0px 0px;
+}
